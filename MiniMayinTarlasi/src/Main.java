@@ -7,12 +7,12 @@ public class Main {
 		
 		int row, column;
 		
-		System.out.println("Mayın Tarlasına Hoşgeldiniz!");
-		System.out.println("Lütfen oynamak istediğiniz boyutları giriniz!");
+		System.out.println("MayÄ±n TarlasÄ±na HoÅŸgeldiniz!");
+		System.out.println("LÃ¼tfen oynamak istediÄŸiniz boyutlarÄ± giriniz!");
 		
-		System.out.print("Satır Sayısı : ");
+		System.out.print("SatÄ±r SayÄ±sÄ± : ");
 		row = scanner.nextInt();
-		System.out.print("Sütün Sayısı : ");
+		System.out.print("SÃ¼tun SayÄ±sÄ± : ");
 		column = scanner.nextInt();
 		
 		MayinTarlasi mayin = new MayinTarlasi(row, column);

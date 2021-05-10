@@ -23,22 +23,22 @@ public class MayinTarlasi {
 		int row, col, success = 0;
 		prepareGame();
 		//print(map);
-		System.out.println("Oyun Başladı!");
+		System.out.println("Oyun BaÅŸladÄ±!");
 		while(game) {
 			print(board);
 			
-			System.out.print("Satır : ");
+			System.out.print("SatÄ±r : ");
 			row = scanner.nextInt();
-			System.out.print("Sütun :");
+			System.out.print("SÃ¼tun :");
 			col = scanner.nextInt();
 			
 			if (row < 0 || row >= rowNumber) {
-				System.out.println("Geçersiz koordinat");
+				System.out.println("GeÃ§ersiz koordinat");
 				continue;
 			}
 			
 			if (col < 0 || col >= colNumber) {
-				System.out.println("Geçersiz koordinat");
+				System.out.println("GeÃ§ersiz koordinat");
 				continue;
 			}
 			
@@ -46,7 +46,7 @@ public class MayinTarlasi {
 				check(row, col);
 				success++;
 				if (success == (size -(size / 4))) {
-					System.out.println("Başardınız! Hiç bir mayına basmadınız.");
+					System.out.println("BaÅŸardÄ±nÄ±z! HiÃ§ bir mayÄ±na basmadÄ±nÄ±z.");
 					break;
 				}
 			} else {
